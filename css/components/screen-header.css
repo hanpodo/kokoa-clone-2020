@@ -12,4 +12,15 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
+}
+.cog__point {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+  position: absolute;
+  right: -8px;
+  top: -10px;
 }
