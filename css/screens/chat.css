@@ -152,9 +152,9 @@
 }
 
 .reply:focus-within .reply__column :first-child,
-.reply:focus-within.fa-smile-wink,
+.reply:focus-within .fa-smile-wink,
 .reply:focus-within button {
-  opacity: 0;
+  opacity: 1;
 }
 .reply:focus-within input {
   width: 98vw;
